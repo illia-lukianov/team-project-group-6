@@ -1,0 +1,25 @@
+.body {
+    font-family: 'Inter Tight', sans-serif;
+    ;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
