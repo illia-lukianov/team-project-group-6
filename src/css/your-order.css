@@ -34,7 +34,7 @@ input {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.08;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
   padding: 0 20px;
@@ -68,7 +68,7 @@ input {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
-  width: 296px;
+  width: 295px;
   margin-bottom: 20px;
 }
 
