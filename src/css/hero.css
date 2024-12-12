@@ -1,0 +1,38 @@
+.hero-section {
+  font-family: 'Inter Tight', sans-serif;
+  background-color: #576f35;
+  min-width: 320px;
+  max-width: 375px;
+
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 412px;
+
+  background-image: url(../img/hero/hero-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+
+.hero-title {
+  text-transform: uppercase;
+
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+
+  min-width: 320px;
+  max-width: 335px;
+  margin-bottom: 20px;
+}
+.hero-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+  min-width: 320px;
+  max-width: 335px;
+}
