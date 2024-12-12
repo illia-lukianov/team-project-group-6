@@ -96,6 +96,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 60px;
+  }
+
   .hero-section {
     min-width: 1280px;
     padding-top: 232px;
