@@ -8,7 +8,12 @@
   padding-top: 100px;
   padding-bottom: 412px;
 
-  background-image: url(../img/hero/hero-mob.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url(../img/hero/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
@@ -40,21 +45,54 @@
 @media only screen and (min-width: 768px) {
   .hero-section {
     min-width: 768px;
-    margin-bottom: 24px;
+
     padding-top: 120px;
     padding-bottom: 588px;
 
-    background-image: url(../img/hero/hero-tab.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../img/hero/hero-tab.jpg);
   }
 
   .hero-title {
     max-width: 704px;
     font-size: 76px;
+
+    margin-bottom: 24px;
   }
 
   .hero-descr {
     max-width: 603px;
     font-size: 16px;
     line-height: 125%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section {
+    min-width: 1280px;
+    padding-top: 232px;
+    padding-bottom: 52px;
+
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../img/hero/hero-desk.jpg);
+    background-position: right top;
+    background-size: contain;
+  }
+
+  .hero-title {
+    margin-bottom: 128px;
+    width: 502px;
+  }
+
+  .hero-descr {
+    width: 472px;
   }
 }
