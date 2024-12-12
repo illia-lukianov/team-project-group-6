@@ -9,6 +9,17 @@ input {
   padding: 0;
   margin: 0;
 }
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
 *,
 *::before,
 *::after {
@@ -16,12 +27,6 @@ input {
 }
 
 /* #region mobail */
-
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 
 .your-order {
   max-width: 375px;
@@ -65,10 +70,9 @@ input {
   font-weight: 600;
   font-size: 28px;
   line-height: 1;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #141414;
-  width: 295px;
   margin-bottom: 20px;
 }
 
@@ -180,7 +184,7 @@ input {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   border-radius: 30px;
-  width: 295px;
+  width: 100%;
   height: 52px;
   background-color: #7a3145;
   color: #fbfbfb;
@@ -242,12 +246,6 @@ input {
 
 /* #region tablet */
 @media (min-width: 768px) {
-  .container {
-    min-width: 768px;
-    margin: 0 auto;
-    padding: 0 64px;
-  }
-
   .your-order {
     min-width: 768px;
     padding: 100px 0;
@@ -308,10 +306,6 @@ input {
     line-height: 1.25;
   }
 
-  .order-form-button {
-    width: 440px;
-  }
-
   .order-social {
     padding: 52px;
   }
@@ -341,12 +335,6 @@ input {
 
 /* #region desktop */
 @media (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-    margin: 0 auto;
-    padding: 0 100px;
-  }
-
   .your-order {
     max-width: 1280px;
     padding: 100px 0;
@@ -375,10 +363,6 @@ input {
   .order-title-form {
     width: 428px;
     margin-bottom: 52px;
-  }
-
-  .order-form-button {
-    width: 428px;
   }
 
   .order-form-button:focus,
