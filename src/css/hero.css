@@ -36,3 +36,25 @@
   min-width: 320px;
   max-width: 335px;
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    min-width: 768px;
+    margin-bottom: 24px;
+    padding-top: 120px;
+    padding-bottom: 588px;
+
+    background-image: url(../img/hero/hero-tab.jpg);
+  }
+
+  .hero-title {
+    max-width: 704px;
+    font-size: 76px;
+  }
+
+  .hero-descr {
+    max-width: 603px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
