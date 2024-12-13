@@ -42,9 +42,9 @@ button {
   letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
-  padding: 0 20px;
   margin: 0;
   margin-bottom: 20px;
+  width: 335px;
 }
 
 .pink-span {
@@ -53,7 +53,7 @@ button {
 
 .order-text {
   margin-bottom: 40px;
-  padding: 0 20px;
+  width: 335px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
@@ -254,17 +254,17 @@ button {
   .order-title {
     font-size: 64px;
     line-height: 1;
-    padding: 0 96px 0 32px;
     margin-bottom: 24px;
+    width: 640px;
   }
 
   .order-text {
     margin: 0;
     margin-bottom: 52px;
-    padding: 0 96px 0 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
+    width: 640px;
   }
 
   .order-form {
@@ -310,6 +310,10 @@ button {
     padding: 52px;
   }
 
+  .order-picture {
+    margin: 0 auto;
+  }
+
   .order-photo {
     width: 536px;
     height: 316px;
@@ -342,15 +346,13 @@ button {
   }
 
   .order-title {
-    padding: 0 429px 0 100px;
-    margin: 0;
+    width: 640px;
     margin-bottom: 24px;
   }
 
   .order-text {
-    margin: 0;
     margin-bottom: 52px;
-    padding: 0 438px 0 100px;
+    width: 742px;
   }
 
   .order-form {
