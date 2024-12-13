@@ -1,9 +1,6 @@
 .hero-section {
   background-color: #576f35;
-  min-width: 320px;
-  max-width: 375px;
 
-  margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 412px;
 
@@ -36,21 +33,32 @@
   font-weight: 600;
   font-size: 52px;
   line-height: 100%;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
 
-  min-width: 320px;
-  max-width: 335px;
   margin-bottom: 20px;
 }
+
 .hero-descr {
   font-weight: 500;
   font-size: 14px;
   line-height: 143%;
   color: #fbfbfb;
-  min-width: 320px;
+
   max-width: 335px;
+}
+
+@media only screen and (max-width: 374px) {
+  .hero-title {
+    font-size: 12.5vw;
+    width: 90%;
+    word-wrap: break-word;
+
+    /* font-size: 52px; */
+
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-width: 768px) {
