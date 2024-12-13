@@ -23,7 +23,7 @@
         rgba(20, 20, 20, 0.2)
       ),
       url(../image/hero/retina/hero-mob@2x.jpg);
-    background-size: contain;
+    background-size: 375px 372px;
   }
 }
 
@@ -59,6 +59,11 @@
 
     overflow: hidden;
   }
+
+  .hero-descr {
+    width: 90%;
+    word-wrap: break-word;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -73,7 +78,12 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/hero/hero-tab.jpg);
+      url(../image/hero/hero-tab.jpg);
+  }
+
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -84,7 +94,7 @@
           rgba(20, 20, 20, 0.2)
         ),
         url(../image/hero/retina/hero-tab@2x.jpg);
-      background-size: contain;
+      background-size: 768px 536px;
     }
   }
 
@@ -102,7 +112,7 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1200px) {
   .container {
     padding-left: 60px;
   }
