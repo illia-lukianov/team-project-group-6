@@ -55,8 +55,6 @@
     width: 90%;
     word-wrap: break-word;
 
-    /* font-size: 52px; */
-
     overflow: hidden;
   }
 
@@ -79,11 +77,6 @@
         rgba(20, 20, 20, 0.2)
       ),
       url(../image/hero/hero-tab.jpg);
-  }
-
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -112,11 +105,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  .container {
-    padding-left: 60px;
-  }
-
+@media only screen and (min-width: 1280px) {
   .hero-section {
     min-width: 1280px;
     padding-top: 232px;
@@ -150,6 +139,6 @@
   }
 
   .hero-descr {
-    width: 472px;
+    width: 470px;
   }
 }
