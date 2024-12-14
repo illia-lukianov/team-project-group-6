@@ -12,6 +12,7 @@
   letter-spacing: -0.015em;
   text-transform: uppercase;
   margin-bottom: 20px;
+  width: 335px;
 }
 
 .pink-span {
@@ -220,14 +221,15 @@
     font-size: 64px;
     line-height: 1;
     margin-bottom: 24px;
+    width: 640px;
   }
 
   .order-text {
     margin-bottom: 52px;
-    padding: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
+    width: 640px;
   }
 
   .order-form {
@@ -273,6 +275,10 @@
     padding: 52px;
   }
 
+  .order-picture {
+    margin: 0 auto;
+  }
+
   .order-photo {
     width: 536px;
     height: 316px;
@@ -300,12 +306,12 @@
 @media (min-width: 1280px) {
 
   .order-title {
-    padding: 0;
-    width: 751px;
+    width: 640px;
+    margin-bottom: 24px;
   }
 
   .order-text {
-    padding: 0;
+    margin-bottom: 52px;
     width: 742px;
   }
 
