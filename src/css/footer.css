@@ -34,6 +34,12 @@ footer {
 }
 .footer-logo-section {
   margin-bottom: 40px;
+  width: 335px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-logo-section {
+    width: 265px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .footer-logo-section {
@@ -97,6 +103,9 @@ footer {
     margin-right: 121px;
   }
 }
+.footer-menu-item {
+  width: 228px;
+}
 .footer-menu-item:not(:last-child) {
   margin-bottom: 14px;
 }
@@ -110,14 +119,17 @@ footer {
   font-size: 14px;
   line-height: 143%;
   margin-bottom: 80px;
-  max-width: 179px;
 }
 @media only screen and (min-width: 768px) {
   .footer-contacts-list {
     font-size: 16px;
     line-height: 125%;
     max-width: 215px;
+    margin-bottom: 0;
   }
+}
+.footer-contacts-item {
+  width: 216px;
 }
 .footer-contacts-item:not(:last-child) {
   margin-bottom: 16px;
@@ -132,6 +144,8 @@ footer {
   .footer-policy-list {
     display: flex;
     justify-content: space-between;
+    font-size: 16px;
+    line-height: 125%;
   }
 }
 .footer-policy-item:not(:last-child) {
