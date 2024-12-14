@@ -1,24 +1,7 @@
-input {
-  padding: 0;
-  margin: 0;
-}
-
-textarea {
-  resize: none;
-}
-
-button {
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-/* #region mobail */
-
 .your-order {
-  max-width: 375px;
   background-color: #576f35;
   padding: 80px 0;
+  color: #fbfbfb;
   margin: 0 auto;
 }
 
@@ -28,8 +11,6 @@ button {
   line-height: 1.08;
   letter-spacing: -0.015em;
   text-transform: uppercase;
-  color: #fbfbfb;
-  margin: 0;
   margin-bottom: 20px;
   width: 335px;
 }
@@ -40,11 +21,9 @@ button {
 
 .order-text {
   margin-bottom: 40px;
-  width: 335px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.42;
-  color: #fbfbfb;
+  line-height: 1.43; 
 }
 
 .order-form {
@@ -60,7 +39,7 @@ button {
   letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #141414;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .span-cherry {
@@ -196,8 +175,9 @@ button {
 .order-photo {
   width: 295px;
   height: 272px;
-  margin-bottom: 20px;
   border-radius: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .order-social-text {
@@ -205,7 +185,7 @@ button {
   font-size: 14px;
   line-height: 1.42;
   color: #d4bfc4;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .order-social-links {
@@ -234,7 +214,6 @@ button {
 /* #region tablet */
 @media (min-width: 768px) {
   .your-order {
-    min-width: 768px;
     padding: 100px 0;
   }
 
@@ -246,7 +225,6 @@ button {
   }
 
   .order-text {
-    margin: 0;
     margin-bottom: 52px;
     font-weight: 500;
     font-size: 16px;
@@ -326,11 +304,6 @@ button {
 
 /* #region desktop */
 @media (min-width: 1280px) {
-  .your-order {
-    max-width: 1280px;
-    padding: 100px 0;
-    margin: 0 auto;
-  }
 
   .order-title {
     width: 640px;
