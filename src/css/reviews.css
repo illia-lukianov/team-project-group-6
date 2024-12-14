@@ -91,12 +91,7 @@
     background-color: transparent;
     padding: 20px 16px;
     flex-shrink: 0;
-}
-
-@media only screen and (max-width: 767px) {
-    .reviews-item {
-        width: 335px;
-    }
+    width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
