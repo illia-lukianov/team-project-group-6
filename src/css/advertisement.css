@@ -1,0 +1,68 @@
+.advertisement-accent {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    color: white;
+    border-radius: 12px;
+    background-color: #576F35;
+    display: block;
+    width: 335px;
+    height: 102px;
+    
+}
+
+.advertisement-text {
+
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: black;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-accent {
+        width: 675px;
+        height: 86px;
+        font-size: 64px;
+        line-height: 100%;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-text {
+        font-size: 64px;
+        line-height: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .advertisement-accent {
+        text-align: center;
+        font-size: 76px;
+            line-height: 100%;
+        width: 808px;
+        height: 84px; 
+        display: inline;
+       
+        
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .advertisement-text {
+        font-size: 76px;
+        line-height: 100%;
+        width: 1080px;
+            height: 228px;
+
+    }
+}
+
