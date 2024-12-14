@@ -1,5 +1,4 @@
 .your-order {
-  max-width: 375px;
   background-color: #576f35;
   padding: 80px 0;
   color: #fbfbfb;
@@ -214,7 +213,6 @@
 /* #region tablet */
 @media (min-width: 768px) {
   .your-order {
-    min-width: 768px;
     padding: 100px 0;
   }
 
@@ -300,9 +298,6 @@
 
 /* #region desktop */
 @media (min-width: 1280px) {
-  .your-order {
-    max-width: 1280px;
-  }
 
   .order-title {
     padding: 0;
