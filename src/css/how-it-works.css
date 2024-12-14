@@ -122,29 +122,47 @@
 /* Using CSS counters */
 ol {
   list-style-type: none;
-  counter-reset: primary;
+  counter-reset: step-counter;
   padding-left: 0;
 }
 ol li {
   position: relative;
+}
+ol li::before,
+ol li::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
 }
 ol li::before {
   display: flex;
   counter-increment: step-counter;
   content: counter(step-counter);
   position: absolute;
-  left: 24;
-  top: 16;
-  width: 52px;
-  height: 52px;
+  left: 29px;
+  top: 17px;
+  width: 42px;
+  height: 42px;
   background-color: #7a3145;
+  z-index: 3;
+
   color: #fbfbfb;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  border-radius: 50px;
   justify-content: center;
   align-items: center;
+}
+ol li::after {
+  left: 24px;
+  top: 12px;
+  width: 52px;
+  height: 52px;
+  background-color: #d4bfc4;
+  z-index: 2;
+}
+ol li div {
+  z-index: 5;
 }
