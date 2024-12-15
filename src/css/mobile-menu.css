@@ -14,7 +14,6 @@
         visibility: hidden;
         pointer-events: none;
         opacity: 0;
-        transform: translateX(100%);
         transition: 250ms ease-in;
         transition-property: transform, visibility, opacity;
         z-index: 999;
