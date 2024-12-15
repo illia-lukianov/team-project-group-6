@@ -1,0 +1,186 @@
+.backdrop{
+    display: none;
+}
+
+@media only screen and (max-width: 1279px) {
+
+    .backdrop {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        pointer-events: none;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: 250ms ease-in;
+        transition-property: transform, visibility, opacity;
+        z-index: 999;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.43;
+        color: #fbfbfb
+    }
+
+    @media only screen and (min-width: 768px) {
+        .backdrop {
+            font-size: 16px;
+            line-height: 1.25;
+            background-color: rgba(20, 20, 20, 0.4);
+        }
+    }
+
+    .backdrop.is-open{
+        visibility: visible;
+        pointer-events: auto;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+
+    .mobile-menu {
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #576f35;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .mobile-menu{
+            width: 351px;
+    }
+    }
+
+    .mobile-menu-container{
+        position: relative;
+        padding-top: 296px;
+        padding-bottom: 52px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .mobile-menu-container{
+            padding-top: 360px;
+            padding-bottom: 48px;
+        }
+    }
+
+    .mobile-menu-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent ;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .mobile-menu-close-btn{
+            top: 32px;
+            right: 32px;
+        }
+
+        .close-btn-icon{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .nav {
+        margin-bottom: auto;
+    }
+
+    .mobile-menu-nav-item:not(:last-child) {
+        margin-bottom: 24px;
+    }
+    .mobile-menu-nav-link {
+        display: block;
+        margin: 0 auto;
+        width: 118px;
+        height: 44px;
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #fbfbfb;
+        border-radius: 12px;
+        background-color: transparent;
+        transition: 250ms ease-in;
+        transition-property: background-color, color;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .mobile-menu-nav-link{
+        width: 122px;
+    }
+    }
+
+    @media (hover: hover){
+        .mobile-menu-nav-link:hover,
+        .mobile-menu-nav-link:focus{
+            background-color: #fbfbfb;
+            color: #7a3145;
+        }
+    }
+
+    @media not (hover: hover){
+        .mobile-menu-nav-link:active{
+            background-color: #fbfbfb;
+            color: #7a3145;
+        }
+    }
+
+
+
+    .mobile-menu-shop-btn {
+        display: block;
+        cursor: pointer;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 30px;
+        padding: 16px 41px;
+        min-width: 175px;
+        height: 52px;
+        background-color: #7a3145;
+        color: inherit;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.11;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        transition: 250ms ease-in;
+        transition-property: border, background-color, color;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .mobile-menu-shop-btn{
+        min-width: 157px;
+        padding: 16px 32px;
+    }
+    }
+
+    @media (hover: hover){
+        .mobile-menu-shop-btn:focus,
+        .mobile-menu-shop-btn:hover{
+            border: 1px solid #fbfbfb;
+            background-color: #fbfbfb;
+            color: #7a3145
+        }
+    }
+
+    @media not (hover: hover){
+        .mobile-menu-shop-btn:active{
+            border: 1px solid #fbfbfb;
+            background-color: #fbfbfb;
+            color: #7a3145
+        }
+    }
+    
+}
