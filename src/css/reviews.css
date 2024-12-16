@@ -70,6 +70,12 @@
     transition: transform 0.3s ease;
 }
 
+@media only screen and (max-width: 374px) {
+    .reviews-list {
+        width: calc(((100vw - 20px * 2) * 3) + 18px * 2);
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .reviews-list {
         width: calc((340px * 3) + 24px * 2);
@@ -92,6 +98,12 @@
     padding: 20px 16px;
     flex-shrink: 0;
     width: 335px;
+}
+
+@media only screen and (max-width: 374px) {
+    .reviews-item {
+        width: calc(100vw - 20px * 2);
+    }
 }
 
 @media only screen and (min-width: 768px) {
