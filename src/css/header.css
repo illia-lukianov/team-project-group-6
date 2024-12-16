@@ -34,29 +34,7 @@ header {
 .nav-item {
 }
 
-.nav-link {
-  font-size: 16px;
-  line-height: 1.25;
-  text-align: center;
-  color: #fbfbfb;
-  border: 1px solid #fbfbfb;
-  border-radius: 12px;
-  padding: 12px;
-  width: 118px;
-  height: 44px;
-}
 
-.nav-link:focus {
-  border: 1px solid #fbfbfb;
-  background-color: #d4bfc4;
-  color: #7a3145;
-}
-
-.nav-link:hover {
-  border: 1px solid #d4bfc4;
-  background-color: #d4bfc4;
-  color: #7a3145;
-}
 
 .buy-button {
   display: none;
@@ -105,6 +83,36 @@ header {
     margin-right: 20px;
   }
 
+  .nav-link {
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+    border-radius: 12px;
+    padding: 12px;
+    width: 118px;
+    height: 44px;
+  }
+  
+  .nav-link:focus {
+    border: 1px solid #fbfbfb;
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  
+  .nav-link:hover {
+    border: 1px solid #d4bfc4;
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+  
+  .nav-link:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+    border: none;
+  }
+
   .menu-button {
     display: flex;
   }
@@ -146,25 +154,14 @@ header {
     background-color: #d4bfc4;
     color: #7a3145;
   }
+
+  .button-text:active {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
 }
 
-/* .header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.icon-left {
-  margin-top: 48px;
-  display: flex;
-  gap: 9px;
-}
-.icon {
-  display: inline-block;
-  stroke-width: 0;
-} */
+
 
 /* how it works, vegetables, reviews*/
 
