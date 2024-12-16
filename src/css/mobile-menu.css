@@ -39,6 +39,9 @@
         opacity: 1;
     }
 
+    body:has(.backdrop.is-open){
+        overflow: hidden;
+    }
 
 
     .mobile-menu {
