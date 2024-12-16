@@ -1,72 +1,131 @@
 header {
-    padding: 0 100px;
-}
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-/* ???? */
-.icon-left{
-    margin-top: 48px;
-    display: flex;
-    gap: 9px;
-}
-.icon {
-    display: inline-block;
-    stroke-width: 0;
+  background-color: transparent;
+
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 20px;
 }
 
-/* how it works, vegetables, reviews*/
-.menu{
-    display: flex;
-    align-items: center;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 168px;
+  height: 16px;
+}
+
+.nav-list {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  padding: 12px;
+  width: 118px;
+  height: 44px;
+}
+
+.nav-link:focus {
+  border: 1px solid #fbfbfb;
+  background-color: ;
+  color: #7a3145;
+}
+
+.nav-link:hover {
+  border: 1px solid #d4bfc4;
+  background-color: #d4bfc4;
+  color: #7a3145;
+}
+
+.buy-button {
+  display: none;
+}
+
+.menu-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.menu-icon {
+  width: 32px;
+  height: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    left: 0px;
+    right: 0px;
+    top: 32px;
+  }
+
+  .logo-icon {
+    width: 216px;
+    height: 20px;
+  }
+  .menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header-container {
     justify-content: center;
-    flex-direction: row;
-    gap: 8px;
-}
-.menu-text{
-font-family: "Inter Tight", sans-serif;
-    font-size: 16px;
-    line-height: 1.25;
-    text-align: center;
-    color: #fbfbfb;
-    border: 1px solid #fbfbfb;
-    border-radius: 12px;
-    padding: 12px;
-    width: 118px;
-    height: 44px;
-}
-.menu-text:focus{
-    border: 1px solid #fbfbfb;
-    background-color: ;
-    color: #7a3145;
-}
-.menu-text:hover{
-    border: 1px solid #d4bfc4;
-    background-color: #d4bfc4;
-    color: #7a3145;
-}
+    align-items: center;
+  }
 
-/*button shop now*/
-.menu-button{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        gap: 20px;
-}
-.button-text{
-    font-family: "Inter Tight", sans-serif;
+  .logo-link {
+    margin-right: 366px;
+  }
+
+  .nav-list {
+    display: flex;
+
+    margin-right: 20px;
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .buy-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-text {
     font-weight: 600;
-        font-size: 18px;
-        line-height: 1.11;
-        letter-spacing: -0.01em;
-        text-transform: uppercase;
-        color: #fbfbfb;
-        background-color: #7a3145;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    background-color: #7a3145;
 
     border-radius: 30px;
     padding: 16px 32px;
@@ -75,13 +134,38 @@ font-family: "Inter Tight", sans-serif;
     white-space: nowrap;
     display: flex;
     justify-content: center;
-    align-items: center;          
-}
-.button-text:focus {
+    align-items: center;
+  }
+
+  .button-text:focus {
     background: #fbfbfb;
     color: #7a3145;
-}
-.button-text:hover {
+  }
+
+  .button-text:hover {
     background-color: #d4bfc4;
     color: #7a3145;
+  }
 }
+
+/* .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.icon-left {
+  margin-top: 48px;
+  display: flex;
+  gap: 9px;
+}
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+} */
+
+/* how it works, vegetables, reviews*/
+
+/*button shop now*/
