@@ -31,9 +31,6 @@ header {
   gap: 8px;
 }
 
-.nav-item {
-}
-
 .buy-button {
   display: none;
 }
@@ -163,7 +160,3 @@ header {
     color: #7a3145;
   }
 }
-
-/* how it works, vegetables, reviews*/
-
-/*button shop now*/
