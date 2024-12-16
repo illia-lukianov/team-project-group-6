@@ -1,0 +1,216 @@
+@media only screen and (min-width: 320px) {
+  .how-it-works-section {
+    background: linear-gradient(to bottom, #7a3145 calc(500px + 9vw), #7a3145 calc(500px + 9vw), #576f35 calc(500px + 9vw), #576f35 100%);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .how-it-works-section {
+    background: linear-gradient(to bottom, #7a3145 44%, #576f35 44%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-section {
+    background: linear-gradient(to bottom, #7a3145 54.3%, #576f35 54.3%);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-section {
+    background: linear-gradient(to right, #7a3145 50%, #576f35 50%);
+  }
+}
+
+.how-it-works-for-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-for-flex {
+    flex-direction: row;
+  }
+}
+
+.how-it-works-wrapper {
+  padding: 40px 0;
+  background-color: #7a3145;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-wrapper {
+    padding: 100px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-wrapper {
+    padding: 100px;
+    padding-left: 0;
+  }
+}
+
+.how-it-works-all-text {
+  flex-direction: column;
+  padding: 80px 0;
+  display: flex;
+  min-height: 676px;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-all-text {
+    padding: 100px 132px;
+    min-height: 708px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-all-text {
+    padding: 100px;
+    padding-right: 0;
+  }
+}
+
+.how-it-works-image {
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-image {
+    width: 640px;
+    height: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .how-it-works-image {
+    width: 440px;
+    height: 560px;
+  }
+}
+
+.how-it-works-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  max-width: 335px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-title {
+    font-size: 32px;
+    max-width: 440px;
+    margin-bottom: 24px;
+  }
+}
+
+.how-it-works-span {
+  color: #d4bfc4;
+}
+
+.how-it-works-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fbfbfb;
+  max-width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 440px;
+  }
+}
+
+.how-it-works-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  margin-top: 40px;
+  list-style-type: none;
+  counter-reset: step-counter;
+  padding-left: 0;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-list {
+    gap: 24px;
+    margin-top: auto;
+  }
+}
+
+.how-it-works-item {
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfb;
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  max-width: 335px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #858585;
+}
+
+@media only screen and (min-width: 768px) {
+  .how-it-works-item {
+    padding: 12px 15px 12px 24px;
+    width: 440px;
+    max-width: 100%;
+    height: 76px;
+  }
+}
+
+.how-it-works-item-text {
+  margin-left: 76px;
+  align-content: center;
+}
+
+.how-it-works-span-li {
+  font-weight: 700;
+  color: #141414;
+}
+
+.how-it-works-item::before,
+.how-it-works-item::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+}
+
+.how-it-works-item::before {
+  display: flex;
+  counter-increment: step-counter;
+  content: counter(step-counter);
+  position: absolute;
+  left: 29px;
+  width: 42px;
+  height: 42px;
+  background-color: #7a3145;
+  z-index: 3;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-it-works-item::after {
+  left: 24px;
+  width: 52px;
+  height: 52px;
+  background-color: #d4bfc4;
+  z-index: 2;
+}
