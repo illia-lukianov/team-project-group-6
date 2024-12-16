@@ -1,0 +1,86 @@
+.advertisement-section {
+    background-color: #fbfbfb;
+}
+
+.advertisement-accent {
+    color: white;
+    border-radius: 12px;
+    background-color: #576F35;
+    max-width: 335px;
+    height: 102px;
+    display: inline-flex;
+    align-items: flex-end;
+    
+}
+
+.advertisement-text {
+
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-accent {
+        width: 675px;
+        height: 86px;
+        font-size: 64px;
+        line-height: 100%;
+        align-items: flex-end;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-text {
+        font-size: 64px;
+        line-height: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .advertisement-accent {
+        text-align: center;
+        font-size: 76px;
+            line-height: 100%;
+        width: 808px;
+        height: 84px; 
+        display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+        
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .advertisement-text {
+        font-size: 76px;
+        line-height: 100%;
+        width: 1054px;
+            height: 228px;
+            align-items: center;
+
+    }
+}
+.advertisement-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .advertisement-section {
+        padding-top: 120px;
+        padding-bottom: 112px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .advertisement-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
