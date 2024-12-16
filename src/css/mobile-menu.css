@@ -15,8 +15,9 @@
         pointer-events: none;
         opacity: 0;
         transition: 250ms ease-in;
-        transition-property: transform, visibility, opacity;
+        transition-property:  visibility, opacity;
         z-index: 999;
+        overflow: hidden;
 
         font-weight: 500;
         font-size: 14px;
@@ -36,7 +37,6 @@
         visibility: visible;
         pointer-events: auto;
         opacity: 1;
-        transform: translateX(0);
     }
 
 
@@ -48,6 +48,13 @@
         width: 100%;
         height: 100%;
         background-color: #576f35;
+        transform: translateX(100%);
+        transition: 250ms ease-in;
+        transition-property: transform, visibility, opacity;
+    }
+
+    .backdrop.is-open .mobile-menu{
+        transform: translateX(0);
     }
 
     @media only screen and (min-width: 768px) {
