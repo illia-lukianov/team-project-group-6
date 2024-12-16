@@ -12,7 +12,7 @@
   letter-spacing: -0.015em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  width: 335px;
+  max-width: 335px;
 }
 
 .pink-span {
@@ -222,6 +222,7 @@
     line-height: 1;
     margin-bottom: 24px;
     width: 640px;
+    max-width: 100%;
   }
 
   .order-text {

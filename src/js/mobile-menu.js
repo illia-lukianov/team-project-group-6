@@ -1,0 +1,1 @@
+(()=>{const e={openMobileMenuBtn:document.querySelector("[data-mobileMenu-open]"),closeMobileMenuBtn:document.querySelector("[data-mobileMenu-close]"),mobileMenu:document.querySelector("[data-mobileMenu]")};function n(){e.mobileMenu.classList.toggle("is-open")}e.openMobileMenuBtn.addEventListener("click",n),e.closeMobileMenuBtn.addEventListener("click",n)})();

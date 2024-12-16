@@ -2,10 +2,12 @@
   background-color: #576f35;
   padding-top: 100px;
   padding-bottom: 412px;
-  background-image: linear-gradient(to bottom,
+  background-image: linear-gradient(
+      to bottom,
       rgba(20, 20, 20, 0.2),
-      rgba(20, 20, 20, 0.2)),
-    url(../image/hero/hero-mob.jpg);
+      rgba(20, 20, 20, 0.2)
+    ),
+    url(../image/hero/hero-mob.webp);
   background-size: 375px 372px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -14,10 +16,12 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+        to bottom,
         rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)),
-      url(../image/hero/retina/hero-mob@2x.jpg);
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../image/hero/retina/hero-mob@2x.webp);
   }
 }
 
@@ -59,20 +63,23 @@
     max-width: 768px;
     padding-top: 120px;
     padding-bottom: 588px;
-    background-image: linear-gradient(to bottom,
-          rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)),
-      url(../image/hero/hero-tab.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url(../image/hero/hero-tab.webp);
     background-size: 768px 536px;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
-      background-image: linear-gradient(to bottom,
-            rgba(20, 20, 20, 0.2),
-            rgba(20, 20, 20, 0.2)),
-        url(../image/hero/retina/hero-tab@2x.jpg);
-
+      background-image: linear-gradient(
+          to bottom,
+          rgba(20, 20, 20, 0.2),
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(../image/hero/retina/hero-tab@2x.webp);
     }
   }
 
@@ -97,21 +104,23 @@
     padding-bottom: 52px;
 
     background-image: linear-gradient(
-        to left ,
+        to left,
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../image/hero/hero-desk.jpg);
+      url(../image/hero/hero-desk.webp);
     background-position: right;
     background-size: 640px 796px;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
-      background-image: linear-gradient(to left,
+      background-image: linear-gradient(
+          to left,
           rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)),
-        url(../image/hero/retina/hero-desk@2x.jpg);
+          rgba(20, 20, 20, 0.2)
+        ),
+        url(../image/hero/retina/hero-desk@2x.webp);
       background-position: right;
       background-size: 640px 796px;
     }

@@ -28,18 +28,14 @@ footer {
     margin-bottom: 124px;
   }
 }
-@media only screen and (min-width: 768px) {
-  .footer-logo-section {
-    max-width: 265px;
-  }
-}
 .footer-logo-section {
   margin-bottom: 40px;
-  width: 335px;
+  max-width: 335px;
 }
 @media only screen and (min-width: 768px) {
   .footer-logo-section {
     width: 265px;
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1280px) {
