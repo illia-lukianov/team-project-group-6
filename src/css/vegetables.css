@@ -94,10 +94,14 @@
   .vegetables-list-item img
   { max-width: 280px; }
   
-  .vegetables-list-item:nth-child(5){
+  .vegetables-list-item:nth-child(5){ /* Maket issue */
     padding-right: 30px;
   }
 
+  .vegetables-list-item:nth-child(5) img { /* Maket issue */
+    width: 282px;
+    height: 244px; 
+  }
 }
 
 .vegetables-subtitle {
