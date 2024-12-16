@@ -48,7 +48,7 @@ header {
 
 .nav-link:focus {
   border: 1px solid #fbfbfb;
-  background-color: ;
+  background-color: #d4bfc4;
   color: #7a3145;
 }
 
