@@ -96,7 +96,7 @@ header {
   .nav-link:focus {
     background-color: #d4bfc4;
     color: #7a3145;
-    border: none;
+    border: 1px solid transparent;
   }
 
   .nav-link:hover {
