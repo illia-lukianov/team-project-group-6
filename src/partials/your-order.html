@@ -1,9 +1,10 @@
 <!-- Секція Fresh Harvest Box -->
 <section class="your-order" id="shopNow">
   <div class="container">
-    <h2 class="order-title">
+    <h2>Your order</h2>
+    <p class="order-title">
       Fresh <span class="pink-span">Harvest</span> Box has got you covered
-    </h2>
+    </p>
     <p class="order-text">
       Our boxes are packed with delicious, nutritious vegetables, perfect for
       anyone looking to eat healthier or support local farmers. Order your box
@@ -19,19 +20,21 @@
         </h3>
         <form>
           <input
-            class="order-name"
+            class="order-input"
             type="text"
             name="user-name"
             placeholder="Full Name"
+            aria-label="Enter your name"
             required
           />
 
           <input
-            class="order-email"
+            class="order-input"
             type="email"
             name="user-email"
             placeholder="Email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            aria-label="Enter your email"
             required
           />
 
@@ -39,7 +42,9 @@
             class="order-comment"
             name="user-comment"
             placeholder="Comment"
-          ></textarea>
+            aria-label="Enter your comment"
+          >
+          </textarea>
 
           <button class="order-form-button" type="submit">SEND</button>
         </form>
@@ -79,7 +84,7 @@
         </picture>
         <p class="order-social-text">Follow us on our social networks:</p>
         <ul class="order-social-links">
-          <li>
+          <li class="order-social-item">
             <a
               class="order-social-link"
               target="_blank"
@@ -87,8 +92,7 @@
               >INSTAGRAM</a
             >
           </li>
-          <li><p class="order-social-link">/</p></li>
-          <li>
+          <li class="order-social-item">
             <a
               class="order-social-link"
               target="_blank"
@@ -96,8 +100,7 @@
               >FACEBOOK</a
             >
           </li>
-          <li><p class="order-social-link">/</p></li>
-          <li>
+          <li class="order-social-item">
             <a
               class="order-social-link"
               target="_blank"
