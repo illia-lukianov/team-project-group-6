@@ -93,21 +93,8 @@
   transition: focus 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-comment:focus {
-  border-color: #7a3145;
-}
-
-.order-comment:not(:placeholder-shown):valid {
-  border-color: #3cbc81;
-}
-
-.order-comment:not(:placeholder-shown):invalid {
-  border-color: #e74a3b;
-}
-
 .order-name::placeholder,
-.order-email::placeholder,
-.order-comment::placeholder {
+.order-email::placeholder {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
