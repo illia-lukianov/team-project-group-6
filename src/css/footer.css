@@ -1,4 +1,4 @@
-footer {
+.footer {
   background-color: #7a3145;
   color: #fff;
 }
@@ -133,6 +133,20 @@ footer {
   }
 }
 
+.footer-menu-link,
+.footer-contacts-link {
+  transition: 250ms ease-in color;
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-menu-link:hover,
+  .footer-contacts-link:hover,
+  .footer-contacts-link:active,
+  .footer-menu-link:active {
+    color: #d4bfc4;
+  }
+}
+
 .footer-contacts-list {
   font-weight: 700;
   font-size: 14px;
@@ -195,10 +209,10 @@ footer {
 }
 
 .footer-privacy-item:last-child::after {
-  content: "";
+  content: '';
 }
 
 .footer-privacy-item::after {
-  content: "/";
+  content: '/';
   margin-left: 12px;
 }
