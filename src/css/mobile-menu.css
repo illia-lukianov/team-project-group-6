@@ -129,6 +129,26 @@
         }
     }
 
+    .mobile-menu-close-btn:hover,
+    .mobile-menu-close-btn:focus{
+        animation: animationCloseBtn 0.3s ease-in forwards;
+        transform: scale(1.1);
+    }
+
+    @keyframes animationCloseBtn {
+        0% {
+                transform: rotate(-10deg);
+        }
+        50% {
+            transform: rotate(10deg);
+            transform: scale(1.05);
+        }
+        100% {
+            transform: rotate(0);
+            transform: scale(1.1);
+        }
+    }
+
     .nav {
         margin-bottom: calc((100vh - 180px - 52px - 52px ) * 0.44);
     }
@@ -223,7 +243,7 @@
         .mobile-menu-shop-btn:hover{
             border: 1px solid #fbfbfb;
             background-color: #fbfbfb;
-            color: #7a3145
+            color: #7a3145;
         }
     }
 
@@ -233,6 +253,36 @@
             background-color: #fbfbfb;
             color: #7a3145
         }
+    }
+
+    @keyframes bounceIn {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        60% {
+            transform: translateY(15%);
+            transform: rotateX(10deg);
+            transform: rotateY(10deg);
+            opacity: 1;
+        }
+        80% {
+            transform: translateY(-5%);
+            transform: rotateX(-10deg);
+            transform: rotateY(-10deg);
+        }
+        100% {
+            transform: translateY(0);
+            transform: rotateX(0);
+            transform: rotateY(0);
+        }
+    }
+
+    .backdrop.is-open .mobile-menu-nav-link,
+    .backdrop.is-open .mobile-menu-shop-btn{
+        animation: bounceIn 0.8s ease-out forwards;
+        animation-delay: 0.2s; 
+        opacity: 1;
     }
     
 }
