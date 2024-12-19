@@ -1,4 +1,4 @@
-footer {
+.footer {
   background-color: #7a3145;
   color: #fff;
 }
@@ -135,20 +135,14 @@ footer {
 
 .footer-menu-link,
 .footer-contacts-link {
-  transition: 250ms ease-in;
-  transition-property: color;
-}
-
-.footer-menu-link:active,
-.footer-contacts-link:active {
-  color: #d4bfc4;
+  transition: 250ms ease-in color;
 }
 
 @media only screen and (min-width: 1280px) {
   .footer-menu-link:hover,
   .footer-contacts-link:hover,
-  .footer-menu-link:focus,
-  .footer-contacts-link:focus {
+  .footer-contacts-link:active,
+  .footer-menu-link:active {
     color: #d4bfc4;
   }
 }
