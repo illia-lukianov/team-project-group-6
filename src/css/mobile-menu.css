@@ -128,12 +128,23 @@
             height: 40px;
         }
     }
-
-    .mobile-menu-close-btn:hover,
-    .mobile-menu-close-btn:focus{
-        animation: animationCloseBtn 0.3s ease-in forwards;
-        transform: scale(1.1);
+    
+    @media (hover: hover){
+        .mobile-menu-close-btn:hover,
+        .mobile-menu-close-btn:focus{
+            animation: animationCloseBtn 0.3s ease-in forwards;
+            transform: scale(1.1);
+        }
     }
+
+    @media not (hover: hover){
+        .mobile-menu-close-btn:active{
+            animation: animationCloseBtn 0.3s ease-in forwards;
+            transform: scale(1.1);
+        }
+    }
+
+
 
     @keyframes animationCloseBtn {
         0% {
