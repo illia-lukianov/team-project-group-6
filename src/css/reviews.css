@@ -12,7 +12,6 @@
 @media only screen and (min-width: 768px) {
     .reviews-section {
         padding: 100px 0;
-    
         font-size: 16px;
         line-height: 1.25;
     }
@@ -98,7 +97,31 @@
     padding: 20px 16px;
     flex-shrink: 0;
     width: 335px;
+    animation: runningBorder 2s infinite ease-in-out;
 }
+
+@keyframes runningBorder {
+    0% {
+      border-top-color: #d4bfc4;
+      border-right-color: #9b9899;
+      border-bottom-color: #d4bfc4;
+      border-left-color: #9b9899;
+    }
+
+    50% {
+      border-top-color: #9b9899;
+      border-right-color: #d4bfc4;
+      border-bottom-color: #9b9899;
+      border-left-color: #d4bfc4;
+    }
+
+    100% {
+      bborder-top-color: #d4bfc4;
+      border-right-color: #9b9899;
+      border-bottom-color: #d4bfc4;
+      border-left-color: #9b9899;
+    }
+  }
 
 @media only screen and (max-width: 374px) {
     .reviews-item {
