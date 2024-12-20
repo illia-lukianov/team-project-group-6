@@ -7,7 +7,7 @@
       rgba(20, 20, 20, 0.2),
       rgba(20, 20, 20, 0.2)
     ),
-    url(../image/hero/hero-mob.webp);
+    url(/image/hero/hero-mob.webp);
   background-size: 375px 372px;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -21,7 +21,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../image/hero/retina/hero-mob@2x.webp);
+      url(/image/hero/retina/hero-mob@2x.webp);
   }
 }
 
@@ -68,7 +68,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../image/hero/hero-tab.webp);
+      url(/image/hero/hero-tab.webp);
     background-size: 768px 536px;
   }
 
@@ -79,7 +79,7 @@
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(../image/hero/retina/hero-tab@2x.webp);
+        url(/image/hero/retina/hero-tab@2x.webp);
     }
   }
 
@@ -108,7 +108,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../image/hero/hero-desk.webp);
+      url(/image/hero/hero-desk.webp);
     background-position: right;
     background-size: 640px 796px;
   }
@@ -120,7 +120,7 @@
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(../image/hero/retina/hero-desk@2x.webp);
+        url(/image/hero/retina/hero-desk@2x.webp);
       background-position: right;
       background-size: 640px 796px;
     }
